@@ -1,9 +1,9 @@
-window.onload = function(){
+//window.onload = function(){
 
-  var submitB = document.getElementById('submit');
+  //var submitB = document.getElementById('submit');
 
-  submitB.onclick = function(){
-
+  //submitB.onclick = function(){
+function calculateScore() {
     var checkedValue = 0;
     var counter = document.getElementById('score');
     var inputElements = document.getElementsByClassName('checkbox_input');
@@ -49,7 +49,7 @@ window.onload = function(){
 
     //init();
   }
-}
+//}
 
 function drawChart() {
   var data = google.visualization.arrayToDataTable([
